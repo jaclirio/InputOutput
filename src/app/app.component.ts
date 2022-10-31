@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'InputOutput';
+
+  handleChildEvent(value: any) {
+    alert(value);
+  }
 }
